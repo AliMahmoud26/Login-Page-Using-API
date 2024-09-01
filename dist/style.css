@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.sign-up-form {
+  background-color: #fff;
+  padding: 3rem 2rem;
+  box-shadow: 0.25rem 0.25rem 0.25rem rgba(0, 0, 0, 0.5);
+  border: 2px solid #eee;
+}
+.sign-up-form h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+.sign-up-form form {
+  display: flex;
+  flex-direction: column;
+}
+.sign-up-form form > div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+}
+.sign-up-form form label {
+  margin-bottom: 0.25rem;
+  color: #444;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.sign-up-form form input {
+  padding: 0.75rem 3rem;
+  border: 2px solid #777;
+  border-radius: 0.25rem;
+  background-color: #fff;
+}
+.sign-up-form form .btn {
+  color: #fff;
+  background-color: rgb(8, 97, 221);
+  border: none;
+  font-size: 1.125rem;
+  padding: 0.75rem 1rem;
+  width: 40%;
+  margin: 1rem auto 0;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.sign-up-form form .btn:hover {
+  background-color: rgb(8, 33, 197);
+}
+
+.wel-btn {
+  color: #00f;
+  background-color: transparent;
+  border: none;
+  font-size: 1.125rem;
+  padding: 0.75rem 1rem;
+  margin: 1rem 1rem 0;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
